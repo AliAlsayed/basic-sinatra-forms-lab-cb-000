@@ -8,7 +8,7 @@ class App < Sinatra::Base
     @team = {'team_name'=>params[:name], 'coach'=>params[:coach],
              'point_guard'=>params[:pg],
              'shooting_guard'=>params[:sg],
-             'small_forward'=>params[:small_forward],
+             'small_forward'=>params[:sf],
              'power_forward'=>params[:power_forward],
              'center'=>params[:center]}
     erb :team
